@@ -1,0 +1,121 @@
+body{
+    margin: 0px !important;
+    /* background-color:mintcream; */
+}
+.header{
+width: 100%;
+background-color:mediumaquamarine;
+padding-bottom:8px;
+padding-top:8px;
+/* color:gray */
+}
+
+h1{
+    font-size: 250% !important;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    height: 47px;
+    background-color: #c7f9de;
+    padding-top: 10px;
+    text-align: center;
+}
+.a_menu {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 150% !important;
+    text-decoration: none !important;
+    color: black !important;
+}
+a.a_menu:hover{
+    background-color: mediumaquamarine;
+    text-decoration: none;
+}
+.frame{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 70%;
+    padding-bottom: 30px;
+}
+.prof{
+    border: 3px solid mediumaquamarine;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-family: Montserrat, sans-serif;
+}
+a.prof {
+    padding: 10px;
+    background: mediumaquamarine;
+    border: unset;
+    cursor: pointer;
+}
+.news{
+    margin: 20px;
+    float: left;
+    padding: 20px;
+    width:900px;
+    /* height: 450px; */
+    /* border:1px solid black;  */
+    background:#a2e8aa;
+    /* overflow:auto;  */
+}
+.news2{
+    margin: 20px;
+    float: right;
+    padding: 20px;
+    width:450px;
+    /* height: 450px; */
+    border:4px solid #a2e8aa; 
+    background:white;
+    /* overflow:auto;  */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 10px;
+    width: 105px;
+    background: mediumaquamarine;
+    border: unset;
+    cursor: pointer;
+}
+#submitmsg{
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    background: mediumaquamarine;
+    border: unset;
+    cursor: pointer;
+}
+.msg {
+    border: 2px solid #884b20;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.news3{
+    width:850px;
+    /* height: 200px; */
+    padding: 20px;
+    margin-bottom: 10px;
+    border:1px solid #a2e8aa; 
+    background:white;
+    /* overflow:auto;  */
+}
